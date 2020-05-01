@@ -12,7 +12,7 @@ class Dog
   end
   
   def save
-    binding.pry
+  
     @@all << self
     @save = self
   end  
